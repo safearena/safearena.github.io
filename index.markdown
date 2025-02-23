@@ -9,6 +9,8 @@ layout: default
 
 *<strong>Ada Tur</strong> &nbsp; <strong>Nicholas Meade</strong> &nbsp; <strong>Xing Han Lù</strong> &nbsp; Alejandra Zambrano &nbsp; Arkil Patel &nbsp; Esin Durmus &nbsp; Spandana Gella &nbsp; Siva Reddy*
 
+**Equal Contribution**
+
 <table>
       <tr>
             <td>
