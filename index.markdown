@@ -7,6 +7,10 @@ layout: default
 <h1>SafeArena</h1>
 <h2>Evaluating Safety in Autonomous Web Agents</h2>
 
+<div align="center">
+Ada Tur* &ntsb; Nicholas Meade* &ntsb; Xing Han Lù &ntsb; Alejandra Zambrano &ntsb; Arkil Patel &ntsb; Esin Durmus &ntsb; Spandana Gella &ntsb; Siva Reddy
+</div>
+
 <table>
       <tr>
             <td>
