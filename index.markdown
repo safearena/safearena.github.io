@@ -44,7 +44,7 @@ We evaluate several leading LLM-based web agents, including GPT-4o, Claude-3.5 S
 
 Overall Performance                           |  Normalized Safety Score
 :--------------------------------------------:|:----------------------------------------------:
-<img src="/assets/tcr_main_d-aggregate.jpg">  |  <img src="tcr_main_d-normalized-safety.jpg">
+<img src="/assets/tcr_main_d-aggregate.jpg" width=500px>  |  <img src="tcr_main_d-normalized_safety.jpg" width=500px>
 
 We find that agents are surprisingly compliant with malicious requests, with GPT-4o and Qwen-2 completing 22.8% and 26.0% of the harmful intents, respectively. Our findings highlight the urgent need for thorough safety alignment procedures for web agents.
 
