@@ -13,10 +13,10 @@ layout: default
                   <a href="https://github.com/McGill-NLP/safearena">💻 GitHub</a>
             </td>
             <td>
-                  <a href="404.html">🏠 Paper (TBR)</a>
+                  <a href="404.html">📄 Paper</a>
             </td>
             <td>
-                  <a href="404.html">📊 Leaderboard (TBR)</a>
+                  <a href="404.html">📊 Leaderboard</a>
             </td>
       </tr>
 </table>
@@ -27,7 +27,7 @@ layout: default
 
 LLM-based agents are becoming increasingly proficient at solving web-based tasks. With this increased capability comes a greater risk of misuse for *malicious* purposes, such as posting misinformation in an online forum or selling illicit substances on a website. To evaluate these risks, we propose **SafeArena**, the first benchmark to focus on the deliberate misuse of web agents.
 
-[SafeArena](assets/safearena_fig_v2.pdf)
+[assets/safearena_fig_v2.pdf]
 
 **SafeArena** comprises 250 safe and 250 harmful tasks across four websites. We classify the harmful tasks into five harm categories---*misinformation*, *illegal activity*, *harassment*, *cybercrime*, and *social bias*---designed to assess realistic misuses of web agents.
 
