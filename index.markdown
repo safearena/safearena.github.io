@@ -7,9 +7,7 @@ layout: default
 <h1>SafeArena</h1>
 <h2>Evaluating Safety in Autonomous Web Agents</h2>
 
-<div align="center">
-Ada Tur* &nbsp; Nicholas Meade* &nbsp; Xing Han Lù &nbsp; Alejandra Zambrano &nbsp; Arkil Patel &nbsp; Esin Durmus &nbsp; Spandana Gella &nbsp; Siva Reddy
-</div>
+***Ada Tur** &nbsp; **Nicholas Meade** &nbsp; **Xing Han Lù** &nbsp; Alejandra Zambrano &nbsp; Arkil Patel &nbsp; Esin Durmus &nbsp; Spandana Gella &nbsp; Siva Reddy*
 
 <table>
       <tr>
@@ -27,11 +25,13 @@ Ada Tur* &nbsp; Nicholas Meade* &nbsp; Xing Han Lù &nbsp; Alejandra Zambrano &n
 
 </div>
 
-## SafeArena
+## Are Web Agents Safe?
 
 LLM-based agents are becoming increasingly proficient at solving web-based tasks. With this increased capability comes a greater risk of misuse for *malicious* purposes, such as posting misinformation in an online forum or selling illicit substances on a website. To evaluate these risks, we propose **SafeArena**, the first benchmark to focus on the deliberate misuse of web agents.
 
 <img src="/assets/safearena_fig1_v2.jpg" alt="SafeArena Fig1">
+
+## SafeArena
 
 **SafeArena** comprises 250 safe and 250 harmful tasks across four websites. We classify the harmful tasks into five harm categories---*misinformation*, *illegal activity*, *harassment*, *cybercrime*, and *social bias*---designed to assess realistic misuses of web agents.
 
