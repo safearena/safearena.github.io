@@ -48,4 +48,8 @@ Overall Performance                           |  Normalized Safety Score
 
 We find that agents are surprisingly compliant with malicious requests, with GPT-4o and Qwen-2 completing 22.8% and 26.0% of the harmful intents, respectively. Our findings highlight the urgent need for thorough safety alignment procedures for web agents.
 
+## How To Use The Benchmark
+
+[TODO]
+
 
