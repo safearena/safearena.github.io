@@ -8,7 +8,8 @@ layout: default
 <h2>Evaluating Safety in Autonomous Web Agents</h2>
 
 <i><strong>Ada Tur</strong> &nbsp; <strong>Nicholas Meade</strong> &nbsp; <strong>Xing Han Lù</strong> &nbsp; Alejandra Zambrano &nbsp; Arkil Patel &nbsp; Esin Durmus &nbsp; Spandana Gella &nbsp; Siva Reddy</i>
-
+<br>
+<br>
 <strong>Equal Contribution</strong>
 
 <table>
@@ -41,9 +42,9 @@ LLM-based agents are becoming increasingly proficient at solving web-based tasks
 
 We evaluate several leading LLM-based web agents, including GPT-4o, Claude-3.5 Sonnet, Qwen-2 72B, and Llama-3.2 90B, on our benchmark. 
 
-Overall Performance            |  Normalized Safety Score
-:-----------------------------:|:-------------------------:
-![](tcr_main_d-aggregate.jpg)  |  ![](tcr_main_d-normalized-safety.jpg)
+Overall Performance                           |  Normalized Safety Score
+:--------------------------------------------:|:----------------------------------------------:
+<img src="/assets/tcr_main_d-aggregate.jpg">  |  <img src="tcr_main_d-normalized-safety.jpg">
 
 We find that agents are surprisingly compliant with malicious requests, with GPT-4o and Qwen-2 completing 22.8% and 26.0% of the harmful intents, respectively. Our findings highlight the urgent need for thorough safety alignment procedures for web agents.
 
