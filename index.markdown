@@ -50,12 +50,8 @@ We find that agents are surprisingly compliant with malicious requests, with GPT
 
 ## Which Harm Categories Are Agents Most Vulnerable Against?
 
-[TODO]
+We find that vulnerable categories largely depend on the particular agent at hand; Llama-3.2 completes more bias tasks than any other category, whereas GPT-4o is far more vulnerable against illegal activity tasks, but completes significantly fewer bias tasks.
 
-<img src="/assets/tcr_radar_d-category_v2.jpg" width=700px>
-
-## How To Use The Benchmark?
-
-[TODO]
+<img src="/assets/tcr_radar_d-category_v2.jpg" width=500px>
 
 
