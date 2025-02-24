@@ -56,4 +56,8 @@ We find that vulnerable categories largely depend on the particular agent at han
 
 <img src="/assets/tcr_radar_d-category_v2.jpg" width=500px>
 
+## How Can I Use The Benchmark?
+
+We make the benchmark, as well as all relevant code publicly available at (github.com/McGill-NLP/safearena)[https://github.com/McGill-NLP/safearena]; we also host the SafeArena (leaderboard)[https://huggingface.co/spaces/McGill-NLP/safearena-leaderboard]
+
 
