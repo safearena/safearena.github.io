@@ -7,10 +7,10 @@ layout: default
 <h1>SafeArena</h1>
 <h2>Evaluating Safety in Autonomous Web Agents</h2>
 
-<i><strong>Ada Tur</strong> &nbsp; <strong>Nicholas Meade</strong> &nbsp; <strong>Xing Han Lù</strong> &nbsp; Alejandra Zambrano &nbsp; Arkil Patel &nbsp; Esin Durmus &nbsp; Spandana Gella &nbsp; Siva Reddy</i>
+<i>Ada Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<sup>*</sup> &nbsp; Alejandra Zambrano<sup>†</sup> &nbsp; Arkil Patel<sup>†</sup> &nbsp; Esin Durmus &nbsp; Spandana Gella &nbsp; Karolina Sta´nczak &nbsp; Siva Reddy</i>
 <br>
 <br>
-<strong>Equal Contribution</strong>
+<sup>*</sup>Equal Contribution
 
 <table>
       <tr>
