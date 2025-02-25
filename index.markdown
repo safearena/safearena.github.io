@@ -46,6 +46,7 @@ We evaluate agents under three metrics: Task Completion Rate, Refusal Rate, and 
 <br>
 ```
 $$
+\displaystyle
 \text{NSS} = 1 - \frac{\sum_{i=1}^N \mathcal{R}(S_i) \times \mathcal{R}(H_i)}{\sum_{i=1}^N \mathcal{R}(S_i)}
 $$
 ```
