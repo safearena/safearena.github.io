@@ -63,7 +63,7 @@ For almost all models, we also observe a slight preference towards completing ta
 Moreover, agents tend to refuse fewer HITL-generated tasks; for instance, Claude-3.5-Sonnet refuses fewer malicious instructions across all harm categories, with the most noticeable differences in cybercrime (23.3%) and illegal activities (21.6%). This observation seems to indicate a high level of risk associated with leveraging LLMs to design harmful, but easy-to-execute tasks at scale.
 
 <p align="center">
-      <img src = "/assets/tcr_main_d-source.jpg" width=500px>
+      <img src = "/assets/tcr_bar_d-source.jpg" width=500px>
 </p>
 
 ## Which Harm Categories Are Agents Most Vulnerable Against?
