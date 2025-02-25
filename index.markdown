@@ -4,8 +4,8 @@ layout: default
 
 <div align="center">
 
-### SafeArena
-## Evaluating Safety in Autonomous Web Agents
+<h1>SafeArena</h1>
+<h2>Evaluating Safety in Autonomous Web Agents</h2>
 
 Ada Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<sup>*</sup> &nbsp; Alejandra Zambrano<sup>†</sup> &nbsp; Arkil Patel<sup>†</sup>
 <br>
@@ -45,7 +45,7 @@ LLM-based agents are becoming increasingly proficient at solving web-based tasks
 We evaluate agents under three metrics: Task Completion Rate, Refusal Rate, and Normalized Safety Score. Task Completion Rate is a binary reward assigned on task completion; Refusal Rate is computed with a string-based refusal detector; to contextualize the safety of all models normalized over their agentic capabilties, we compute Normalized Safety Score following formula:
 
 <p align="center">
-      <img src="/assets/nss.jpg" width=500px>
+      <img src="/assets/nss.jpg" width=350px>
 </p>
 
 ## How Do Current Agents Perform?
