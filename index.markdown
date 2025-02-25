@@ -7,7 +7,7 @@ layout: default
 <h1>SafeArena</h1>
 <h2>Evaluating Safety in Autonomous Web Agents</h2>
 
-Ada Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<sup>*</sup> &nbsp; Alejandra Zambrano<sup>†</sup> &nbsp; Arkil Patel<sup>†</sup>
+Ada Defne Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<sup>*</sup> &nbsp; Alejandra Zambrano<sup>†</sup> &nbsp; Arkil Patel<sup>†</sup>
 <br>
 &nbsp; Esin Durmus &nbsp; Spandana Gella &nbsp; Karolina Stańczak &nbsp; Siva Reddy
 <br>
