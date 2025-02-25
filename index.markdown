@@ -4,8 +4,8 @@ layout: default
 
 <div align="center">
 
-<h1>SafeArena</h1>
-<h2>Evaluating Safety in Autonomous Web Agents</h2>
+### SafeArena
+## Evaluating Safety in Autonomous Web Agents
 
 Ada Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<sup>*</sup> &nbsp; Alejandra Zambrano<sup>†</sup> &nbsp; Arkil Patel<sup>†</sup>
 <br>
@@ -36,11 +36,11 @@ LLM-based agents are becoming increasingly proficient at solving web-based tasks
 
 <img src="/assets/safearena_fig1_v2.jpg" alt="SafeArena Fig1">
 
-## SafeArena
+### SafeArena
 
 **SafeArena** comprises 250 safe and 250 harmful tasks across four websites. We classify the harmful tasks into five harm categories---*misinformation*, *illegal activity*, *harassment*, *cybercrime*, and *social bias*---designed to assess realistic misuses of web agents.
 
-# Evaluating Agent Safety
+## Evaluating Agent Safety
 
 We evaluate agents under three metrics: Task Completion Rate, Refusal Rate, and Normalized Safety Score. Task Completion Rate is a binary reward assigned on task completion; Refusal Rate is computed with a string-based refusal detector; Normalized Safety Score is computed using the following formula:
 <br>
