@@ -77,7 +77,7 @@ Conversely, we see less variation across models for the *harassment* and *cyberc
 
 ## How Can I Use The Benchmark?
 
-We make the benchmark, as well as all relevant code publicly available at [github.com/McGill-NLP/safearena](https://github.com/McGill-NLP/safearena). We also host the SafeArena [leaderboard](https://huggingface.co/spaces/McGill-NLP/safearena-leaderboard); to submit to the leaderboard, create an *issue* in the GitHub repo above with the tag **[Leaderboard]**.
+We make the benchmark, as well as all relevant code publicly available at [github.com/McGill-NLP/safearena](https://github.com/McGill-NLP/safearena). We also host the SafeArena [leaderboard](https://huggingface.co/spaces/McGill-NLP/safearena-leaderboard); to submit to the leaderboard, create an *issue* in the GitHub repo above with the tag **[Leaderboard]**. Our [dataset](https://huggingface.co/datasets/McGill-NLP/safearena) is also available through HuggingFace!
 
 ## Citing SafeArena
 
