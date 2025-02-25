@@ -23,7 +23,7 @@ Ada Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<sup>*<
                   <a href="404.html">📄 Paper</a>
             </td>
             <td>
-                  <a href="404.html">📊 Leaderboard</a>
+                  <a href="https://huggingface.co/spaces/McGill-NLP/safearena-leaderboard">📊 Leaderboard</a>
             </td>
       </tr>
 </table>
