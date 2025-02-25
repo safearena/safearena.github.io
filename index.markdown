@@ -38,11 +38,11 @@ LLM-based agents are becoming increasingly proficient at solving web-based tasks
 
 ### SafeArena
 
-**SafeArena** comprises 250 safe and 250 harmful tasks across four websites. We classify the harmful tasks into five harm categories---*misinformation*, *illegal activity*, *harassment*, *cybercrime*, and *social bias*---designed to assess realistic misuses of web agents.
+**SafeArena** comprises 250 safe and 250 harmful tasks across four websites, with the goal of evaluating malicious misuse of web agent capabilities. We classify the harmful tasks into five harm categories---*misinformation*, *illegal activity*, *harassment*, *cybercrime*, and *social bias*---designed to assess realistic misuses of web agents. Each task consists of an intent provided by the user, which the agent needs to complete by taking actions in the environment. By designing equivalent safe tasks for each harmful one, we can effectively characterize the agent's base capability, allowing us to disentangle its potential for harm from its overall task proficiency.
 
 ## Evaluating Agent Safety
 
-We evaluate agents under three metrics: Task Completion Rate, Refusal Rate, and Normalized Safety Score. Task Completion Rate is a binary reward assigned on task completion; Refusal Rate is computed with a string-based refusal detector; Normalized Safety Score is computed using the following formula:
+We evaluate agents under three metrics: Task Completion Rate, Refusal Rate, and Normalized Safety Score. Task Completion Rate is a binary reward assigned on task completion; Refusal Rate is computed with a string-based refusal detector; to contextualize the safety of all models normalized over their agentic capabilties, we compute Normalized Safety Score following formula:
 
 <p align="center">
       <img src="/assets/nss.jpg" width=500px>
@@ -50,7 +50,7 @@ We evaluate agents under three metrics: Task Completion Rate, Refusal Rate, and 
 
 ## How Do Current Agents Perform?
 
-We evaluate several leading LLM-based web agents, including GPT-4o, Claude-3.5 Sonnet, Qwen-2-VL 72B, and Llama-3.2 90B, on our benchmark. 
+We evaluate several leading LLM-based web agents, including GPT-4o and 4o-Mini, Claude-3.5 Sonnet, Qwen-2-VL 72B, and Llama-3.2 90B, on our benchmark. 
 
 Overall Performance                           |  Normalized Safety Score
 :--------------------------------------------:|:----------------------------------------------:
@@ -68,7 +68,8 @@ Moreover, agents tend to refuse fewer HITL-generated tasks; for instance, Claude
 
 ## Which Harm Categories Are Agents Most Vulnerable Against?
 
-We find that vulnerable categories largely depend on the particular agent at hand; Llama-3.2 completes more bias tasks than any other category, whereas GPT-4o is far more vulnerable against illegal activity tasks, but completes significantly fewer bias tasks.
+We find that the completion rates for *illegal activity* vary widely, with Llama-3.2-90B exhibiting the lowest completion rate and GPT-4o the highest, showing a difference of almost 40% between the two models. Further, we see that tasks involving *misinformation* see relatively high completion rates across most models, with Qwen-2-VL-72B (30% TCR) and GPT-4o (28%) executing the highest number of harmful tasks.
+Conversely, we see less variation across models for the *harassment* and *cybercrime* categories, with differences remaining below 15%.
 
 <p align="center">
       <img src="/assets/tcr_radar_d-category_v2.jpg" width=500px>
