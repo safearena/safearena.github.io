@@ -58,6 +58,22 @@ We find that vulnerable categories largely depend on the particular agent at han
 
 ## How Can I Use The Benchmark?
 
-We make the benchmark, as well as all relevant code publicly available at (github.com/McGill-NLP/safearena)[https://github.com/McGill-NLP/safearena]; we also host the SafeArena (leaderboard)[https://huggingface.co/spaces/McGill-NLP/safearena-leaderboard]
+We make the benchmark, as well as all relevant code publicly available at (github.com/McGill-NLP/safearena)[https://github.com/McGill-NLP/safearena]. We also host the SafeArena (leaderboard)[https://huggingface.co/spaces/McGill-NLP/safearena-leaderboard]; to submit to the leaderboard, create an *issue* in the GitHub repo above with the tag **[Leaderboard]**.
 
+## Citing SafeArena
+
+Please use the following BibTex citation when using any material from SafeArena:
+<br>
+```
+@misc{safearena2025,
+      title={SafeArena: Evaluating Safety in Autonomous Web Agents}, 
+      author={Ada Tur and Nicholas Meade and Xing Han Lù and Alejandra Zambrano and Arkil Patel and Esin Durmus and Spandana Gella and Karolina Stańczak and Siva Reddy},
+      year={2025},
+      eprint={TBD},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+```
 
