@@ -75,7 +75,8 @@ Please use the following BibTex citation when using any material from SafeArena:
 ```
 @misc{safearena2025,
       title={SafeArena: Evaluating Safety in Autonomous Web Agents}, 
-      author={Ada Tur and Nicholas Meade and Xing Han Lù and Alejandra Zambrano and Arkil Patel and Esin Durmus and Spandana Gella and Karolina Stańczak and Siva Reddy},
+      author={Ada Tur and Nicholas Meade and Xing Han Lù and Alejandra Zambrano and
+              Arkil Patel and Esin Durmus and Spandana Gella and Karolina Stańczak and Siva Reddy},
       year={2025},
       eprint={TBD},
       archivePrefix={arXiv},
