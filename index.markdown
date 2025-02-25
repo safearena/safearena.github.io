@@ -15,6 +15,7 @@ Ada Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<sup>*<
 <sup>*</sup>Equal Contribution
 <br>
 <sup>†</sup>Technical Lead
+<br>
 
 <table>
       <tr>
