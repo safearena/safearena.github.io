@@ -43,13 +43,10 @@ LLM-based agents are becoming increasingly proficient at solving web-based tasks
 ## Evaluating Agent Safety
 
 We evaluate agents under three metrics: Task Completion Rate, Refusal Rate, and Normalized Safety Score. Task Completion Rate is a binary reward assigned on task completion; Refusal Rate is computed with a string-based refusal detector; Normalized Safety Score is computed using the following formula:
-<br>
-```
-$$
-\displaystyle
-\text{NSS} = 1 - \frac{\sum_{i=1}^N \mathcal{R}(S_i) \times \mathcal{R}(H_i)}{\sum_{i=1}^N \mathcal{R}(S_i)}
-$$
-```
+
+<p align="center">
+      <img src="/assets/nss.jpg" width=500px>
+</p>
 
 ## How Do Current Agents Perform?
 
