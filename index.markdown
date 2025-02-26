@@ -33,11 +33,14 @@ Ada Defne Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<
 
 </div>
 
+Overall Performance                           |  Normalized Safety Score
+:--------------------------------------------:|:----------------------------------------------:
+<img src="/assets/fig1_crop.jpg" width=500px>  |  <img src="/assets/chart.jpg" width=500px>
+
+
 ## Are Web Agents Safe?
 
 LLM-based agents are becoming increasingly proficient at solving web-based tasks. With this increased capability comes a greater risk of misuse for *malicious* purposes, such as posting misinformation in an online forum or selling illicit substances on a website. To evaluate these risks, we propose **SafeArena**, the first benchmark to focus on the deliberate misuse of web agents.
-
-<img src="/assets/safearena_fig1_v2.jpg" alt="SafeArena Fig1">
 
 ### SafeArena
 
@@ -54,10 +57,6 @@ We evaluate agents under three metrics: Task Completion Rate, Refusal Rate, and 
 ## How Do Current Agents Perform?
 
 We evaluate several leading LLM-based web agents, including GPT-4o and 4o-Mini, Claude-3.5 Sonnet, Qwen-2-VL 72B, and Llama-3.2 90B, on our benchmark. 
-
-Overall Performance                           |  Normalized Safety Score
-:--------------------------------------------:|:----------------------------------------------:
-<img src="/assets/tcr_main_d-aggregate.jpg" width=500px>  |  <img src="/assets/tcr_main_d-normalized_safety.jpg" width=500px>
 
 We find that agents are surprisingly compliant with malicious requests, with GPT-4o and Qwen-2-VL completing 22.8% and 26.0% of the harmful intents, respectively. LLMs such as GPT-4o and Llama-3.2-90B have undergone extensive safety training procedures for instruction-following, yet we find that these safety efforts transfer poorly to web task; this is evident through low refusal rates we observe across the five LLMs.
 
