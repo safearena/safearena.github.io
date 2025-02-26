@@ -4,7 +4,7 @@ layout: default
 
 <div align="center">
 
-<h1>🛡️ SafeArena 🛡️</h1>
+<h1>🛡️ SafeArena </h1>
 <h2>Evaluating Safety in Autonomous Web Agents</h2>
 
 Ada Defne Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<sup>*</sup> &nbsp; Alejandra Zambrano<sup>†</sup> &nbsp; Arkil Patel<sup>†</sup>
@@ -35,14 +35,14 @@ Ada Defne Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<
 
 Despite extensive safety tuning, LLMs are not yet safe enough to act as web agents. | Harmful Task Completion Rate
 :--------------------------------------------:|:----------------------------------------------:
-<img src="/assets/fig1_crop.jpg" width=500px>  |  <img src="/assets/chart.jpg" width=500px>
+<img src="/assets/fig1_crop.jpg" width=400px>  |  <img src="/assets/chart.jpg" width=500px>
 
 
 ## Are Web Agents Safe?
 
 LLM-based agents are becoming increasingly proficient at solving web-based tasks. With this increased capability comes a greater risk of misuse for *malicious* purposes, such as posting misinformation in an online forum or selling illicit substances on a website. To evaluate these risks, we propose **SafeArena**, the first benchmark to focus on the deliberate misuse of web agents.
 
-### SafeArena
+# SafeArena
 
 **SafeArena** comprises 250 safe and 250 harmful tasks across four websites, with the goal of evaluating malicious misuse of web agent capabilities. We classify the harmful tasks into five harm categories---*misinformation*, *illegal activity*, *harassment*, *cybercrime*, and *social bias*---designed to assess realistic misuses of web agents. Each task consists of an intent provided by the user, which the agent needs to complete by taking actions in the environment. By designing equivalent safe tasks for each harmful one, we can effectively characterize the agent's base capability, allowing us to disentangle its potential for harm from its overall task proficiency.
 
@@ -64,18 +64,16 @@ For almost all models, we also observe a slight preference towards completing ta
 
 Moreover, agents tend to refuse fewer HITL-generated tasks; for instance, Claude-3.5-Sonnet refuses fewer malicious instructions across all harm categories, with the most noticeable differences in cybercrime (23.3%) and illegal activities (21.6%). This observation seems to indicate a high level of risk associated with leveraging LLMs to design harmful, but easy-to-execute tasks at scale.
 
-<p align="center">
-      <img src = "/assets/tcr_bar_d-source.jpg" width=500px>
-</p>
+
+Despite extensive safety tuning, LLMs are not yet safe enough to act as web agents. | Harmful Task Completion Rate
+:--------------------------------------------:|:----------------------------------------------:
+<img src="/assets/tcr_main_d-aggregate.jpg" width=400px>  |  <img src="/assets/tcr_radar_d-ategory-v2.jpg" width=500px>
+
 
 ## Which Harm Categories Are Agents Most Vulnerable Against?
 
 We see that tasks involving *misinformation* see relatively high completion rates across most models, with Qwen-2-VL-72B (30% TCR) and GPT-4o (28%) executing the highest number of harmful tasks.
 Conversely, we see less variation across models for the *harassment* and *cybercrime* categories, with differences remaining below 15%.
-
-<p align="center">
-      <img src="/assets/tcr_radar_d-category_v2.jpg" width=500px>
-</p>
 
 ## How Can I Use The Benchmark?
 
