@@ -4,7 +4,7 @@ layout: default
 
 <div align="center">
 
-<h1>SafeArena</h1>
+<h1>🛡️ SafeArena 🛡️</h1>
 <h2>Evaluating Safety in Autonomous Web Agents</h2>
 
 Ada Defne Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<sup>*</sup> &nbsp; Alejandra Zambrano<sup>†</sup> &nbsp; Arkil Patel<sup>†</sup>
@@ -14,7 +14,7 @@ Ada Defne Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<
 <br>
 <sup>*</sup>Equal Contribution
 <br>
-<sup>†</sup>Technical Lead
+<sup>†</sup>Core Technical Contribution
 <br>
 
 <table>
@@ -71,7 +71,7 @@ Moreover, agents tend to refuse fewer HITL-generated tasks; for instance, Claude
 
 ## Which Harm Categories Are Agents Most Vulnerable Against?
 
-We find that the completion rates for *illegal activity* vary widely, with Llama-3.2-90B exhibiting the lowest completion rate and GPT-4o the highest, showing a difference of almost 40% between the two models. Further, we see that tasks involving *misinformation* see relatively high completion rates across most models, with Qwen-2-VL-72B (30% TCR) and GPT-4o (28%) executing the highest number of harmful tasks.
+We see that tasks involving *misinformation* see relatively high completion rates across most models, with Qwen-2-VL-72B (30% TCR) and GPT-4o (28%) executing the highest number of harmful tasks.
 Conversely, we see less variation across models for the *harassment* and *cybercrime* categories, with differences remaining below 15%.
 
 <p align="center">
