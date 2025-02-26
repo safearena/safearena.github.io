@@ -35,7 +35,7 @@ Ada Defne Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<
 
 Despite extensive safety tuning, LLMs are not yet safe enough to act as web agents. | Harmful Task Completion Rate
 :--------------------------------------------:|:----------------------------------------------:
-<img src="/assets/fig1_crop.jpg" width=400px>  |  <img src="/assets/chart.jpg" width=500px>
+<img src="/assets/fig1_crop.jpg" width=400px>  |  <img src="/assets/chart.jpg" width=700px>
 
 
 ## Are Web Agents Safe?
@@ -67,7 +67,7 @@ Moreover, agents tend to refuse fewer HITL-generated tasks; for instance, Claude
 
 Despite extensive safety tuning, LLMs are not yet safe enough to act as web agents. | Harmful Task Completion Rate
 :--------------------------------------------:|:----------------------------------------------:
-<img src="/assets/tcr_main_d-aggregate.jpg" width=400px>  |  <img src="/assets/tcr_radar_d-category-v2.jpg" width=500px>
+<img src="/assets/tcr_main_d-aggregate.jpg" width=400px>  |  <img src="/assets/tcr_radar_d-category_v2.jpg" width=500px>
 
 
 ## Which Harm Categories Are Agents Most Vulnerable Against?
