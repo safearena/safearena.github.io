@@ -67,7 +67,7 @@ Moreover, agents tend to refuse fewer HITL-generated tasks; for instance, Claude
 
 Overall Task Completion Rate | Category-Wise Completion Rate
 :--------------------------------------------:|:----------------------------------------------:
-<img src="/assets/tcr_main_d-aggregate.jpg" width=500px>  |  <img src="/assets/tcr_radar_d-category_v2.jpg" width=400px>
+<img src="/assets/tcr_main_d-aggregate.jpg" width=450px>  |  <img src="/assets/tcr_radar_d-category_v2.jpg" width=500px>
 
 
 ## Which Harm Categories Are Agents Most Vulnerable Against?
