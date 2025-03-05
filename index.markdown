@@ -35,7 +35,7 @@ Ada Defne Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<
 
 LLMs can be used to build helpful web agents, but what happens when they are used for malicious tasks on the web? | We find that the harmfulness of LLMs varies, with Claude being substantially safer than other models
 :--------------------------------------------:|:----------------------------------------------:
-<img src="/assets/fig1_crop.jpg" width=400px>  |  <img src="/assets/chart.jpg" width=700px>
+<img src="/assets/fig1_crop.jpg" width=400px>  |  <img src="/assets/SafeArenaBarChart.png" width=700px>
 
 
 ## Are Web Agents Safe?
