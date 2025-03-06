@@ -46,6 +46,10 @@ LLM-based agents are becoming increasingly proficient at solving web-based tasks
 
 **SafeArena** comprises 250 safe and 250 harmful tasks across four websites, with the goal of evaluating malicious misuse of web agent capabilities. We classify the harmful tasks into five harm categories---*misinformation*, *illegal activity*, *harassment*, *cybercrime*, and *social bias*---designed to assess realistic misuses of web agents. Each task consists of an intent provided by the user, which the agent needs to complete by taking actions in the environment. By designing equivalent safe tasks for each harmful one, we can effectively characterize the agent's base capability, allowing us to disentangle its potential for harm from its overall task proficiency.
 
+<p align="center">
+      <img src="/assets/example.jpg" width=500px>
+</p>
+
 ## Evaluating Agent Safety
 
 We evaluate agents under three metrics: Task Completion Rate, Refusal Rate, and Normalized Safety Score. Task Completion Rate is a binary reward assigned on task completion; Refusal Rate is computed with a string-based refusal detector; to contextualize the safety of all models normalized over their agentic capabilties, we compute Normalized Safety Score following formula:
