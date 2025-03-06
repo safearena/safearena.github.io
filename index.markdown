@@ -69,7 +69,7 @@ For almost all models, we also observe a slight preference towards completing ta
 Moreover, agents tend to refuse fewer HITL-generated tasks; for instance, Claude-3.5-Sonnet refuses fewer malicious instructions across all harm categories, with the most noticeable differences in cybercrime (23.3%) and illegal activities (21.6%). This observation seems to indicate a high level of risk associated with leveraging LLMs to design harmful, but easy-to-execute tasks at scale.
 
 
-Overall Task Completion Rate | Category-Wise Completion Rate
+Our *Agent Risk Assessment* framework shows that the safety of current LLM agents differ drastically | Category-level completion rate shows LLMs  performance vary substantially across harm categories
 :--------------------------------------------:|:----------------------------------------------:
 <img src="/assets/aria_chart.png" width=450px>  |  <img src="/assets/radar.png" width=500px>
 
