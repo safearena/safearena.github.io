@@ -35,7 +35,7 @@ Ada Defne Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<
 
 LLMs can be used to build helpful web agents, but what happens when they are used for malicious tasks on the web? | Harmfulness of LLMs varies: Claude refuses a majority of harmful requests, whereas Qwen can complete over 26% of the tasks
 :--------------------------------------------:|:----------------------------------------------:
-<img src="/assets/fig1_crop.jpg" width=400px>  |  <img src="/assets/SafeArenaBarChart.png" width=700px>
+<img src="/assets/UnsafeExample.png" width=500px>  |  <img src="/assets/SafeArenaBarChart.png" width=500px>
 
 
 ## Are Web Agents Safe?
@@ -48,7 +48,7 @@ LLM-based agents are becoming increasingly proficient at solving web-based tasks
 
 | An example of how an agent may complete a harmful task | Sample tasks from SafeArena by harm category
  :---: | :---: 
-<img src="/assets/fig1_crop.jpg" width=400px> | <img src="/assets/example.jpg" width=500px>
+<img src="/assets/fig1_crop.jpg" width=500px> | <img src="/assets/example.jpg" width=500px>
 
 ## Evaluating Agent Safety
 
@@ -71,7 +71,7 @@ Moreover, agents tend to refuse fewer HITL-generated tasks; for instance, Claude
 
 Our *Agent Risk Assessment* framework shows that the safety of current LLM agents differ drastically | Category-level completion rate shows LLMs  performance vary substantially across harm categories
 :--------------------------------------------:|:----------------------------------------------:
-<img src="/assets/aria_chart.png" width=450px>  |  <img src="/assets/radar.png" width=500px>
+<img src="/assets/aria_chart.png" width=500>  |  <img src="/assets/radar.png" width=500px>
 
 
 ## Which Harm Categories Are Agents Most Vulnerable Against?
