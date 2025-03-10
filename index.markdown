@@ -20,6 +20,9 @@ Ada Defne Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<
 <table>
       <tr>
             <td>
+                  <a href="https://huggingface.co/datasets/McGill-NLP/safearena">🤗Dataset</a>
+            </td>
+            <td>
                   <a href="https://github.com/McGill-NLP/safearena">💻 GitHub</a>
             </td>
             <td>
