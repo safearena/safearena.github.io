@@ -23,7 +23,7 @@ Ada Defne Tur<sup>*</sup> &nbsp; Nicholas Meade<sup>*</sup> &nbsp; Xing Han Lù<
                   <a href="https://github.com/McGill-NLP/safearena">💻 GitHub</a>
             </td>
             <td>
-                  <a href="404.html">📄 Paper</a>
+                  <a href="https://arxiv.org/abs/2503.04957">📄 Paper</a>
             </td>
             <td>
                   <a href="https://huggingface.co/spaces/McGill-NLP/safearena-leaderboard">📊 Leaderboard</a>
